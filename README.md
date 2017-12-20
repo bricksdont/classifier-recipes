@@ -54,3 +54,5 @@ X = iris.data
 y = iris.target
 p.fit(X, y)
 ```
+
+See http://scikit-learn.org/dev/developers/contributing.html#rolling-your-own-estimator for more info.
