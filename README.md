@@ -30,3 +30,5 @@ There are three architecture variants, implemented in `lib/cnn.py`, `lib/rnn.py`
 As an example, the data for the Spooky Author Identification Challenge (https://www.kaggle.com/c/spooky-author-identification) is included in the `data` folder. CSV files can be read directly, and the predictions are written in a submission-ready format. Adapt the pre- and postprocessing to your needs.
 
 ## Compatibility with Scikit-Learn
+
+All classifier classes are compatible with `scikit-learn`'s API. This is achieved by having them inherit from `BaseEstimatorMixin` and `ClassifierMixin`. Compatibility means that they implement the same methods and can be used in cross-validation, pipelines or random search.
