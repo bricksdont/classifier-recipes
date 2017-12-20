@@ -12,7 +12,7 @@ Setting up a virtual Python environment is a good idea, for instance with `conda
 
 Install a recent version of DyNet: http://dynet.readthedocs.io/en/latest/python.html. If you have a CUDA-capable GPU, build with CUDA support, but the models run fine on CPU too.
 
-For the CPU version, you can probably use
+For the CPU version, you can probably use (from within your virtual environment)
 
     pip install git+https://github.com/clab/dynet#egg=dynet
 
