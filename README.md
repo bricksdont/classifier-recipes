@@ -39,8 +39,8 @@ For instance, use them directly with scikit-learn toy datasets:
 from sklearn.datasets import load_iris
 import pooling
 
-p = pooling.PoolingClassifier(early_stop=False)
-p
+p = pooling.PoolingClassifier()
+p # in an interpreter, prints all default parameters and their values
 from sklearn.datasets import load_iris
 iris = load_iris()
 X = iris.data
