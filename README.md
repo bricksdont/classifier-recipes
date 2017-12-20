@@ -38,7 +38,7 @@ Adapt the pre- and postprocessing (in `lib/preprocessing.py`) to your needs.
 
 ## Compatibility with Scikit-Learn
 
-The `pooling.PoolingClassifier` and `rnn.RNNClassifier` classes are compatible with `scikit-learn`'s API. This is achieved by having them inherit from `BaseEstimatorMixin` and `ClassifierMixin`. Compatibility means that they implement the same methods and can be used in cross-validation, pipelines or random search.
+The `pooling.PoolingClassifier` and `rnn.RNNClassifier` classes are compatible with `scikit-learn`'s API. This is achieved by having them inherit from `BaseEstimator` and `ClassifierMixin` as mixins. Compatibility means that they implement the same methods and can be used in cross-validation, pipelines or random search.
 
 For instance, use them directly with `scikit-learn` toy datasets:
 
