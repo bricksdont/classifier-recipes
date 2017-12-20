@@ -1,6 +1,6 @@
 # Recipes for sentence classification tasks
 
-Code that exemplifies neural network solutions for classification tasks with `DyNet` (for the core model) and `Keras (preprocessing only). On top of that, the code demonstrates how to implement a custom classifier that is compatible with scikit-learn's API.
+Code that exemplifies neural network solutions for classification tasks with `DyNet` (for the core model) and `Keras` (preprocessing only). On top of that, the code demonstrates how to implement a custom classifier that is compatible with scikit-learn's API.
 
 ## Installation
 
