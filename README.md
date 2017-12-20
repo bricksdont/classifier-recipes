@@ -23,7 +23,7 @@ Then clone the repository to your machine.
 
 ## Training Models
 
-There are three architecture variants, implemented in `cnn.py`, `rnn.py` and `pooling.py`.
+There are three architecture variants, implemented in `lib/cnn.py`, `lib/rnn.py` and `lib/pooling.py`.
 
 ## Example Use Case
 
