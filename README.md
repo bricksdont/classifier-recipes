@@ -22,7 +22,7 @@ Then clone the repository to your machine.
 
 There are three architecture variants, implemented in `lib/cnn.py`, `lib/rnn.py` and `lib/pooling.py`. Train a model with, e.g.:
 
-    python lib/pooling.py --train_file [training CSV] --early_stop
+    python lib/pooling.py --train_file [training CSV] --test_file [test CSV] --early_stop
 
 Use `-h/--help` for more command line parameters:
 
