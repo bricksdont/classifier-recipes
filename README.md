@@ -32,3 +32,18 @@ As an example, the data for the Spooky Author Identification Challenge (https://
 ## Compatibility with Scikit-Learn
 
 All classifier classes are compatible with `scikit-learn`'s API. This is achieved by having them inherit from `BaseEstimatorMixin` and `ClassifierMixin`. Compatibility means that they implement the same methods and can be used in cross-validation, pipelines or random search.
+
+For instance, use them directly with scikit-learn toy datasets:
+
+```python
+from sklearn.datasets import load_iris
+import pooling
+
+p = pooling.PoolingClassifier(early_stop=False)
+p
+from sklearn.datasets import load_iris
+iris = load_iris()
+X = iris.data
+y = iris.target
+p.fit(X, y)
+```
