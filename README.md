@@ -1,6 +1,6 @@
 # Recipes for sentence classification tasks
 
-Code that exemplifies neural network solutions for classification tasks with DyNet (for the core model) and Keras (preprocessing only). On top of that, the code demonstrates how to implement a custom classifier that is compatible with scikit-learn's API.
+Code that exemplifies neural network solutions for classification tasks with `DyNet` (for the core model) and `Keras (preprocessing only). On top of that, the code demonstrates how to implement a custom classifier that is compatible with scikit-learn's API.
 
 ## Installation
 
@@ -40,7 +40,7 @@ Adapt the pre- and postprocessing (in `lib/preprocessing.py`) to your needs.
 
 All classifier classes are compatible with `scikit-learn`'s API. This is achieved by having them inherit from `BaseEstimatorMixin` and `ClassifierMixin`. Compatibility means that they implement the same methods and can be used in cross-validation, pipelines or random search.
 
-For instance, use them directly with scikit-learn toy datasets:
+For instance, use them directly with `scikit-learn` toy datasets:
 
 ```python
 from sklearn.datasets import load_iris
